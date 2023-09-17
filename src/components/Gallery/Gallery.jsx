@@ -46,7 +46,7 @@ const Gallery = () => {
             <form onSubmit={searchHandaler}>
                 <input type="search" placeholder="Type here..." className="input input-bordered input-accent w-full max-w-xs" ref={searchInputField} />
             </form>
-            <div className="search-btn w-1/2 mx-auto flex gap-3 mt-5">
+            <div className="search-btn w-1/2 mx-auto lg:flex gap-3 mt-5 space-y-3 lg:space-y-0">
                 <div onClick={() => handleImage('nature')} className='text-white bg-accent px-8 py-2 rounded justify-center cursor-pointer'>Nature</div>
                 <div onClick={() => handleImage('cat')} className='text-white bg-accent px-8 py-2 rounded justify-center cursor-pointer'>Cat</div>
                 <div onClick={() => handleImage('panda')} className='text-white bg-accent px-8 py-2 rounded justify-center cursor-pointer'>Panda</div>
